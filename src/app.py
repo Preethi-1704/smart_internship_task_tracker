@@ -4,6 +4,8 @@ from pathlib import Path
 import streamlit as st
 
 st.set_page_config(
+    st.title("Internship Task Tracker")
+    st.success("Streamlit App is Working!")
     page_title="Internship Task Tracker",
     page_icon="📌",
     layout="wide"
